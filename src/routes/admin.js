@@ -6,8 +6,6 @@ const EnderecoController = require("../controllers/EnderecoController")
 const routes = Router();
 
 
-/*const ContactController = require("./controllers/ContactController")
-const CategoryController = require("./controllers/CategoryController")*/
 
 //FUNCIONARIOS
 routes.get("/funcionarios", FuncionarioController.index);

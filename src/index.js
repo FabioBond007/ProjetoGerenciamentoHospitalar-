@@ -1,6 +1,5 @@
 const express = require("express");
 const db = require("./models/ConnectDatabase");
-const routes = require('./routes/routes');
 const adminRoutes = require('./routes/admin');
 const medicoRoutes = require('./routes/doctor');
 const atendenteRoutes = require('./routes/attendant');
